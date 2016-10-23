@@ -12,9 +12,10 @@ This Slack Slash Command simplifies the process, so you can just `/sodium Braveh
 
 # Configuration
 This script is intended to run as an AWS Lambda Function + API Gateway trigger.
-This script relies on the 'requests' python library. 
-You will need to create a zip file containing:
+
+1. Run the install.sh shell script.
+2. This will create a zip file containing:
 - slash-sodium.py
 - requests library
 
-... and upload that zip to AWS. Instructions how to do this are beyond the scope of this README.
+3. Upload that zip to AWS Lambda. (Instructions how to do this are beyond the scope of this README.)
