@@ -15,7 +15,7 @@ This script is intended to run as an AWS Lambda Function + API Gateway trigger.
 
 1. Run the install.sh shell script.
 2. This will create a zip file containing:
-- slash-sodium.py
-- requests library
+  - slash-sodium.py
+  - requests library
 
 3. Upload that zip to AWS Lambda. (Instructions how to do this are beyond the scope of this README.)
